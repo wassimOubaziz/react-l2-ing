@@ -1,0 +1,92 @@
+.login .header{
+    text-align: center;
+}
+
+
+.login .loginH1{
+    font-size: 36px;
+    display: inline-block;
+    font-weight: 700;
+    height: 54px;
+    
+}
+
+.login .description{
+    font-weight: 400;
+    font-size: 12px;
+    color: #ADA9BB;
+}
+
+.login .inputBox{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 16px;
+    gap: 5px;
+}
+
+.login .inputBox label{
+    color: #000000;
+}
+
+.login .inputBox input{
+    height: 44px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.login .inputBox input:focus {
+    border-color: #1823F0;
+    outline: none;
+}
+
+.login .inputBox:has(input:focus) label{
+    color: #1823F0;
+}
+
+.login .login-button{
+    background-color: #1823F0;
+    color: #FFFFFF;
+    font-size: 16px;
+    width: 100%;
+    height: 44px;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+}
+
+.login .login-button:hover{
+    border: 2px solid #1823F0;
+}
+
+.login .login-button:hover{
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+
+.login .have{
+    font-size: 12px;
+    text-align: center;
+}
+
+.login .box{
+    width: 420px;
+    border-radius: 8px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    gap: 33px;
+    box-shadow: #00000029 0px 4px 4px 0px;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #EAF8FF;
+}

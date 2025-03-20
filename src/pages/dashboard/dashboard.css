@@ -1,0 +1,40 @@
+.dashboard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #EAF8FF;
+}
+
+.dashboard.gw{
+    gap: 10px;
+    max-width: 422px;
+}
+
+
+.buttonOut {
+    background-color: #1823F0;
+    color: #FFFFFF;
+    font-size: 16px; 
+    line-height: 100%;
+    letter-spacing: 0%;
+    width: 100%;
+    height: 44px;
+    min-width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+.buttonOut:hover {
+    background-color: #1823f0d4;
+    color: #FFFFFF;
+}
+
+.buttonOut:active {
+    background-color: #05083ad4;
+    color: #FFFFFF;
+}
